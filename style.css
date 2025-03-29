@@ -1,0 +1,76 @@
+html, body, h1, h2, h3, h4, h5 
+{
+    font-family: "Open Sans", sans-serif
+}
+
+.comment-input-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    display: none; /* Hide the comment input row by default */
+}
+
+.comment-input {
+    width: 70%; /* Adjust as needed */
+    margin-right: 10px;
+}
+
+.comment-submit {
+    width: 20%; /* Adjust as needed */
+}
+
+/* Dark theme styles */
+body.dark-theme {
+    background-color: #1a1a1a !important;
+    color: #ffffff !important;
+}
+
+.dark-theme .w3-white {
+    background-color: #2d2d2d !important;
+    color: #ffffff !important;
+}
+
+.dark-theme .w3-theme-l5 {
+    background-color: #1a1a1a !important;
+}
+
+.dark-theme .w3-theme-d2 {
+    background-color: #1f1f1f !important;
+}
+
+.dark-theme .w3-theme-d4 {
+    background-color: #000000 !important;
+}
+
+.dark-theme .w3-border {
+    border-color: #404040 !important;
+}
+
+.dark-theme .w3-hover-white:hover {
+    background-color: #404040 !important;
+    color: #ffffff !important;
+}
+
+.dark-theme .w3-text-theme {
+    color: #ffffff !important;
+}
+
+.dark-theme .w3-theme-d1,
+.dark-theme .w3-theme-d2,
+.dark-theme .w3-theme-d3,
+.dark-theme .w3-theme-d4,
+.dark-theme .w3-theme-d5 {
+    background-color: #2d2d2d !important;
+    color: #ffffff !important;
+}
+
+/* Modal styles for dark theme */
+.dark-theme .w3-modal-content {
+    background-color: #2d2d2d !important;
+    color: #ffffff !important;
+}
+
+.dark-theme .w3-modal {
+    background-color: rgba(0,0,0,0.8) !important;
+}
